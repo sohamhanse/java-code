@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "fraction_knapsack",
+            "request": "launch",
+            "mainClass": "greedy_algo.fraction_knapsack",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "fraction_knapsnap",
+            "request": "launch",
+            "mainClass": "greedy_algo.fraction_knapsnap",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "activity_selection",
             "request": "launch",
             "mainClass": "greedy_algo.activity_selection",
