@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "job_sequence",
+            "request": "launch",
+            "mainClass": "greedy_algo.job_sequence",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "indian_coin",
+            "request": "launch",
+            "mainClass": "greedy_algo.indian_coin",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "maximum_length_of_pair",
+            "request": "launch",
+            "mainClass": "greedy_algo.maximum_length_of_pair",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "min_absolute_difference",
+            "request": "launch",
+            "mainClass": "greedy_algo.min_absolute_difference",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "fraction_knapsack",
             "request": "launch",
             "mainClass": "greedy_algo.fraction_knapsack",
