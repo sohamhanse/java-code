@@ -14,22 +14,17 @@ public class fraction_knapsnap {
             activity[i][1] = value[i];
             activity[i][2] = activity[i][1] / activity[i][0];
         }
-
         Arrays.sort(activity , Comparator.comparingDouble(o -> o[2]));
-
         int val = 0 ;
-        int capacity = 0;
         for(int i = weight.length-1 ; i>=0 ;i--){
-            if(capacity == bagweigth){
+            if(bagweigth == 0){
                 break;
             }
-            int remain = bagweigth-capacity;
-            if(activity[i][0] <= remain){
+            if(activity[i][0] <= bagweigth){
                 val += activity[i][1];
-                capacity += activity[i][0];
+                bagweigth -= activity[i][0];
             }else{
-                val += remain * activity[i][2];
-                capacity += remain;
+                val += bagweigth * activity[i][2];
             }
         }
         System.out.println(val);
