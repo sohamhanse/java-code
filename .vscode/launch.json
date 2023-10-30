@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "balancedStringSplit",
+            "request": "launch",
+            "mainClass": "greedy_algo.balancedStringSplit",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "chocola_prob",
+            "request": "launch",
+            "mainClass": "greedy_algo.chocola_prob",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "job_sequence",
             "request": "launch",
             "mainClass": "greedy_algo.job_sequence",
