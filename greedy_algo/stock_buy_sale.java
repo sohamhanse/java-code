@@ -22,7 +22,7 @@ public class stock_buy_sale {
     }
 
     public static void main(String arg[]) {
-        int prices[] = {7, 6, 4, 3, 1};
+        int prices[] = { 7, 6, 4, 3, 1 };
         System.out.println(maxprof(prices));
     }
 }

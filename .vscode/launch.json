@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "level_order_treversal",
+            "request": "launch",
+            "mainClass": "trees.level_order_treversal",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "post_order",
+            "request": "launch",
+            "mainClass": "trees.post_order",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "inorder_node",
+            "request": "launch",
+            "mainClass": "trees.inorder_node",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "creation_from_preorder_and_print_tree",
+            "request": "launch",
+            "mainClass": "trees.creation_from_preorder_and_print_tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "creation_from_preorder_code",
+            "request": "launch",
+            "mainClass": "trees.creation_from_preorder_code",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "stock_buy_sale",
             "request": "launch",
             "mainClass": "greedy_algo.stock_buy_sale",
