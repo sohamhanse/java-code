@@ -32,24 +32,22 @@ public class level_order_treversal {
             if(root == null){
                 return;
             }
-
-            Queue<tree> q = new LinkedList<>() ;
+            Queue<tree> q = new LinkedList<>();
             q.add(root);
             q.add(null);
-
             while(!q.isEmpty()){
                 tree curr = q.remove();
-                if(curr==null){
-                    System.err.println();
+                if(curr == null){
+                    System.out.println();
                     if(q.isEmpty()){
-                        return;
+                        break;
                     }else{
                         q.add(null);
                     }
                 }else{
-                    System.out.print(curr.data +" ");
+                    System.out.print(curr.data + " ");
                     if(curr.left != null){
-                         q.add(curr.left);
+                        q.add(curr.left);
                     }
                     if(curr.right != null){
                         q.add(curr.right);
