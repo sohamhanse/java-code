@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "transform_to_sum_tree",
+            "request": "launch",
+            "mainClass": "trees.transform_to_sum_tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "kth_ancestor",
+            "request": "launch",
+            "mainClass": "trees.kth_ancestor",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "minimum_dist_bet_two_nodes",
             "request": "launch",
             "mainClass": "trees.minimum_dist_bet_two_nodes",
