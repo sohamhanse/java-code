@@ -38,9 +38,9 @@ public class diameter_of_tree_efficient {
     }
 
     public static void main(String arg[]) {
-    //                  1
-    //               /    \
-    //              2       3
+    //                 1
+    //               /   \
+    //              2     3
     //             /  \    
     //            4    5   
     //           /      \        
