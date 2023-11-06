@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minimum_dist_bet_two_nodes",
+            "request": "launch",
+            "mainClass": "trees.minimum_dist_bet_two_nodes",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "lowest_common_ansister",
+            "request": "launch",
+            "mainClass": "trees.lowest_common_ansister",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "print_kth_level",
+            "request": "launch",
+            "mainClass": "trees.print_kth_level",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "top_view_of_tree",
+            "request": "launch",
+            "mainClass": "trees.top_view_of_tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "subtree_of_another_tree",
+            "request": "launch",
+            "mainClass": "trees.subtree_of_another_tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "diameter_of_tree_efficient",
             "request": "launch",
             "mainClass": "trees.diameter_of_tree_efficient",
