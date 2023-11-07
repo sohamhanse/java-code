@@ -1,6 +1,6 @@
 package trees;
 
-public class transform_to_sum_tree {
+public class invert_binary_tree {
     static class tree{
         int data;
         tree left;
@@ -11,19 +11,25 @@ public class transform_to_sum_tree {
             this.data = data;
         }
     }
-
-    public static int sum(tree t){
-        if (t == null){
-            return 0;
+    
+    static void invert(tree root){
+        if(root == null){
+            return;
         }
 
-        int left = sum( t.left);
-        int right = sum(t.right);
-        int data = t.data;
-        int newleft = t.left == null ? 0 : t.left.data;
-        int newright = t.right == null ? 0 : t.right.data;
-        t.data = left + right + newleft + newright;
-        return data ;
+        tree data = root.right;
+        root.right = root.left;
+        root.left = data;
+
+        invert(root.left);
+        invert(root.right);
+    }
+    public static tree invertTree(tree root) {
+        if(root == null){
+            return root;
+        }
+        invert(root);
+        return root;
     }
 
     public static void in(tree t){
@@ -35,16 +41,23 @@ public class transform_to_sum_tree {
         in(t.right);
         
     }
-    
+
     public static void main(String arg[]){
-        //             Main Tree 
+        //             Main Tree :- 1 2 4 5 3 6 7 (inorder)
         //                   1
         //                /    \
         //               2      3
         //             /   \   /  \
         //            4     5 6    7
 
+        //            invert :- 1 3 7 6 2 5 4 
+        //                   1
+        //                /    \
+        //               3      2
+        //             /   \   /  \
+        //            7     6 5    4
 
+        
         tree t = new tree(1);
         t.left = new tree(2);
         t.right = new tree(3);
@@ -52,12 +65,9 @@ public class transform_to_sum_tree {
         t.left.right = new tree(5);
         t.right.left = new tree(6);
         t.right.right = new tree(7);
-        
-        // t.left.left.left = new tree(6);
-        // t.left.left.left.left = new tree(7);
-        // t.left.right.right = new tree(8);
-        // t.left.right.right.right = new tree(9);
-        sum(t);
         in(t);
+        invertTree(t);
+        in(t);
+        
     }
 }

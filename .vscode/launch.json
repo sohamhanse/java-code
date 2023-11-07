@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "delete_leaf_node_with_specific_value",
+            "request": "launch",
+            "mainClass": "trees.delete_leaf_node_with_specific_value",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "invert_binary_tree",
+            "request": "launch",
+            "mainClass": "trees.invert_binary_tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "univalued_or_not",
+            "request": "launch",
+            "mainClass": "trees.univalued_or_not",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "transform_to_sum_tree",
             "request": "launch",
             "mainClass": "trees.transform_to_sum_tree",
