@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sorted_array_to_balanced_tree",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.Sorted_array_to_balanced_tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "mirror_bst",
             "request": "launch",
             "mainClass": "Binary_Search_Tree.mirror_bst",
