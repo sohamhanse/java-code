@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mirror_bst",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.mirror_bst",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "validate_bst",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.validate_bst",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "root_to_node_path_printer",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.root_to_node_path_printer",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "delete_node",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.delete_node",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "search_in_bst",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.search_in_bst",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "build_bst",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.build_bst",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "delete_leaf_node_with_specific_value",
             "request": "launch",
             "mainClass": "trees.delete_leaf_node_with_specific_value",
