@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class inorder_node {
     static class tree{

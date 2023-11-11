@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 public class creation_from_preorder_and_print_tree {
     static class tree{
         int data;

@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class subtree_of_another_tree {
     static class tree {

@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class kth_ancestor {
     static class tree{

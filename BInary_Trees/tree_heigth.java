@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class tree_heigth {
     static class tree{

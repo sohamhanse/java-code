@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class diameter_of_tree_efficient {
     static class tree {

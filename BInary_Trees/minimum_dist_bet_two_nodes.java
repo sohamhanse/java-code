@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class minimum_dist_bet_two_nodes {
     static class tree{

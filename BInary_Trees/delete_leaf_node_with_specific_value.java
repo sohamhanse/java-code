@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 public class delete_leaf_node_with_specific_value {
     static class tree{
         int data;

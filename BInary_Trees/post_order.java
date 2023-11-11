@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class post_order {
     static class tree{

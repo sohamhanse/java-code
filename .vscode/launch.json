@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "merge_two_bst",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.merge_two_bst",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "size_of_largest_BST_in_BT",
+            "request": "launch",
+            "mainClass": "size_of_largest_BST_in_BT",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "size_of_largest_BST_in_BT",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.size_of_largest_BST_in_BT",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "Sorted_array_to_balanced_tree",
             "request": "launch",
             "mainClass": "Binary_Search_Tree.Sorted_array_to_balanced_tree",

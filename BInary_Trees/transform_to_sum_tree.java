@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class transform_to_sum_tree {
     static class tree{

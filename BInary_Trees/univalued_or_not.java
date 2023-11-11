@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 
 public class univalued_or_not {
     static class tree{

@@ -1,4 +1,4 @@
-package trees;
+package BInary_Trees;
 import java.util.*;
 public class level_order_treversal {
     static class tree{
