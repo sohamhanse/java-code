@@ -34,7 +34,7 @@ public class build_bst {
     }
 
     public static void main(String arg[]){
-        int arr [] = {8,7,9,2,6,5,4,1,3};
+        int arr [] = {6,2,13,1,4,9,15,-1,-1,-1,-1,-1,-1,14};
         tree t = null;
         for(int i = 0 ; i<arr.length ;i++){
             t = build(t, arr[i]);

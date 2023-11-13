@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "priority_queue_for_object",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.priority_queue_for_object",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "creation_of_priority_queue",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.creation_of_priority_queue",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "two_sum_BSTs",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.two_sum_BSTs",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Find_the_closest_element_in_Binary_Search_Tree",
+            "request": "launch",
+            "mainClass": "Binary_Search_Tree.Find_the_closest_element_in_Binary_Search_Tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "merge_two_bst",
             "request": "launch",
             "mainClass": "Binary_Search_Tree.merge_two_bst",
