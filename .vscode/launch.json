@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sliding_window_maximum",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.sliding_window_maximum",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "weakest_solder",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.weakest_solder",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "connect_n_rope_with_min_cost",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.connect_n_rope_with_min_cost",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "nearby_car",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.nearby_car",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "heap_sort",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.heap_sort",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "heap_using_arraylist",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.heap_using_arraylist",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "priority_queue_for_object",
             "request": "launch",
             "mainClass": "Heaps_priority_queue.priority_queue_for_object",
