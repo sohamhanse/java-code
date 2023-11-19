@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hashmap_implementation",
+            "request": "launch",
+            "mainClass": "hashmap.hashmap_implementation",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "treemap",
+            "request": "launch",
+            "mainClass": "hashmap.treemap",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "linked_hashmap",
+            "request": "launch",
+            "mainClass": "hashmap.linked_hashmap",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "treration_in_hashmap",
+            "request": "launch",
+            "mainClass": "hashmap.treration_in_hashmap",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "creation_and_fuctions",
+            "request": "launch",
+            "mainClass": "hashmap.creation_and_fuctions",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "Minimum_Operations_to_Halve_Array_Sum",
             "request": "launch",
             "mainClass": "Heaps_priority_queue.Minimum_Operations_to_Halve_Array_Sum",
