@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Minimum_Operations_to_Halve_Array_Sum",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.Minimum_Operations_to_Halve_Array_Sum",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "path_with_minimum_effort",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.path_with_minimum_effort",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Minimum_time_required_to_fill_given_N_slots",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.Minimum_time_required_to_fill_given_N_slots",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "GFG",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.GFG",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "kth_largest_element_int_stream",
+            "request": "launch",
+            "mainClass": "Heaps_priority_queue.kth_largest_element_int_stream",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "sliding_window_maximum",
             "request": "launch",
             "mainClass": "Heaps_priority_queue.sliding_window_maximum",

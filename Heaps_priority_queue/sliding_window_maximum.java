@@ -20,7 +20,7 @@ public class sliding_window_maximum {
         ArrayList<Integer> result = new ArrayList<>();
         while (i < arr.length) {
             result.add(pq.peek()); // Get the maximum element in the current window
-            pq.remove(arr[i - k]); // Remove the first element of the window
+            pq.remove(arr[i - k]); // Remove the first element of the window     pq.remove(arr[i - k]) -> this will remove specific element which present at arr[i - k]
             pq.add(arr[i]); // Add the next element to the window
             i++;
         }
