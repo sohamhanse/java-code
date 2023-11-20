@@ -29,7 +29,7 @@ public class hashmap_implementation {
 
         private int hashfuction(k key) {
             int k = key.hashCode();
-            return Math.abs(K) % n;
+            return Math.abs(k) % n;
         }
 
         private int searchinll(k key, int bi) {

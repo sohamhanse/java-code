@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hashset",
+            "request": "launch",
+            "mainClass": "hashmap.hashset",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "valid_anagram",
+            "request": "launch",
+            "mainClass": "hashmap.valid_anagram",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "anagrams",
+            "request": "launch",
+            "mainClass": "strings.anagrams",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "mejority_element",
+            "request": "launch",
+            "mainClass": "hashmap.mejority_element",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "hashmap_implementation",
             "request": "launch",
             "mainClass": "hashmap.hashmap_implementation",
