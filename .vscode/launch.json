@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "frequency_count",
+            "request": "launch",
+            "mainClass": "hashmap.frequency_count",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "two_sum",
+            "request": "launch",
+            "mainClass": "hashmap.two_sum",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "bottom_view_of_tree",
+            "request": "launch",
+            "mainClass": "hashmap.bottom_view_of_tree",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Vertical_Order_Traversal",
+            "request": "launch",
+            "mainClass": "BInary_Trees.Vertical_Order_Traversal",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "subarray_sum_equal_to_k",
+            "request": "launch",
+            "mainClass": "hashmap.subarray_sum_equal_to_k",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "largest_sumarray_with_0_sum",
+            "request": "launch",
+            "mainClass": "hashmap.largest_sumarray_with_0_sum",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Find_Itinerary_for_Tickets",
+            "request": "launch",
+            "mainClass": "hashmap.Find_Itinerary_for_Tickets",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "union_and_intersection",
+            "request": "launch",
+            "mainClass": "hashmap.union_and_intersection",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "count_distinct_element",
+            "request": "launch",
+            "mainClass": "hashmap.count_distinct_element",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "linkedhashset",
+            "request": "launch",
+            "mainClass": "hashmap.linkedhashset",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "hashset",
             "request": "launch",
             "mainClass": "hashmap.hashset",
