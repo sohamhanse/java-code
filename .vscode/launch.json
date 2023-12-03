@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ireration_in_hashmap",
+            "request": "launch",
+            "mainClass": "hashmap.ireration_in_hashmap",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "frequency_count",
             "request": "launch",
             "mainClass": "hashmap.frequency_count",
