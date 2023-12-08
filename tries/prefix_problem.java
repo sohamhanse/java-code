@@ -29,6 +29,7 @@ public class prefix_problem {
         curr.eow =true;
     }
 
+    // gives only given string unique name 
     public static String unique(String word){
         node  curr = root;
         String str = "";
@@ -44,6 +45,8 @@ public class prefix_problem {
         return str;
     }
 
+
+    // gives all unique name for all string words (words array in main )
     public static void uniqueword(node root , String word){
         if(root == null){
             return;
