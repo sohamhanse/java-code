@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prefix_problem",
+            "request": "launch",
+            "mainClass": "tries.prefix_problem",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "searchintries",
+            "request": "launch",
+            "mainClass": "tries.searchintries",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "insertion",
+            "request": "launch",
+            "mainClass": "tries.insertion",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "ireration_in_hashmap",
             "request": "launch",
             "mainClass": "hashmap.ireration_in_hashmap",
