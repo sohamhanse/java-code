@@ -13,7 +13,7 @@ class animal3 {
     String color;
 }
 
-class elephant extends animal3{
+class elephant extends animal3 {
 
      elephant() {
         super.color="black";

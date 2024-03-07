@@ -30,7 +30,8 @@ public class unique_substring {
     
 
     public static void main(String arg[]){
-        String word = "cac";
+        count = 0;
+        String word = "hello";
         for(int i = 0 ; i<word.length() ; i++){
             String suffix = word.substring(i);
             insert(suffix);

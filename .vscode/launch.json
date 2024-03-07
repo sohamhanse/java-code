@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "topological_bfs",
+            "request": "launch",
+            "mainClass": "Graphs.topological_bfs",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Cycle_Detection_directed_Grafh",
+            "request": "launch",
+            "mainClass": "Graphs.Cycle_Detection_directed_Grafh",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Bypartate_Graph",
+            "request": "launch",
+            "mainClass": "Graphs.Bypartate_Graph",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Cycle_Detection_undirected_dfs",
+            "request": "launch",
+            "mainClass": "Graphs.Cycle_Detection_undirected_dfs",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "connected_component",
+            "request": "launch",
+            "mainClass": "Graphs.connected_component",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Has_Path",
+            "request": "launch",
+            "mainClass": "Graphs.Has_Path",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "DFS",
+            "request": "launch",
+            "mainClass": "Graphs.DFS",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "Graphs.BFS",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "superkeyword",
+            "request": "launch",
+            "mainClass": "oops.superkeyword",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "Creation",
+            "request": "launch",
+            "mainClass": "Graphs.Creation",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "fubonacci",
+            "request": "launch",
+            "mainClass": "recursion.fubonacci",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort",
+            "request": "launch",
+            "mainClass": "sorting.bubble_sort",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "longest_word_with_all_prefix",
             "request": "launch",
             "mainClass": "tries.longest_word_with_all_prefix",
