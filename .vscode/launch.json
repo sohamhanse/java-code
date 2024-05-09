@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "excep",
+            "request": "launch",
+            "mainClass": "excep",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "StudentAttendanceSystem",
+            "request": "launch",
+            "mainClass": "StudentAttendanceSystem",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "SharedArrayTest",
+            "request": "launch",
+            "mainClass": "SharedArrayTest",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "SimpleArray",
+            "request": "launch",
+            "mainClass": "SimpleArray",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
+            "name": "expriment",
+            "request": "launch",
+            "mainClass": "javaaddon.expriment",
+            "projectName": "java-code_467ff33e"
+        },
+        {
+            "type": "java",
             "name": "topological_bfs",
             "request": "launch",
             "mainClass": "Graphs.topological_bfs",
